@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:3000"  # Mapea el puerto 8080 de la máquina al puerto 3000 del contenedor
